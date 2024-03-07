@@ -146,5 +146,3 @@ Check out how to contribute to the CLI in [CONTRIBUTING.md](CONTRIBUTING.md).
 ## License
 
 This project is under an [MIT license](LICENSE.txt).
-
-
