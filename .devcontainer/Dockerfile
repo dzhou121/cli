@@ -7,6 +7,8 @@ RUN mkdir -p /workspaces && chown node:node /workspaces
 ARG USERNAME=node
 USER $USERNAME
 
+EXPOSE 6666
+
 # Save command line history
 RUN echo "export HISTFILE=/home/$USERNAME/commandhistory/.bash_history" >> "/home/$USERNAME/.bashrc" \
 	&& echo "export PROMPT_COMMAND='history -a'" >> "/home/$USERNAME/.bashrc" \
